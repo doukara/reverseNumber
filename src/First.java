@@ -4,19 +4,23 @@ import java.util.Scanner;
 
 public class First {
     
-    static int  number;
-    public static void fun(){
-    
-       System.out.println("Enter number : ");
-       Scanner addNumber = new Scanner(System.in);
-       number = addNumber.nextInt();
+     static int number;
+    public static void revNumber(){
         
+       StringBuffer number = new StringBuffer();
+       System.out.println("Enter number  : ");
+       Scanner addNumber = new Scanner(System.in);
+       number
+       
+       
+       
+        
+            
+                System.out.println(number.reverse());
         
          
        
-       for (int i=number;number<i;i--){
-           System.out.print("the reverse number is : " + number);
-       }
+       
        
     }    
     
