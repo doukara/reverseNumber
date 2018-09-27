@@ -7,14 +7,15 @@ public class SecondeW extends FirstW{
     @Override
     public void revNumber(){
        
-       StringBuffer number = new StringBuffer();
-       System.out.print("Enter number  : ");
-       Scanner addNumber = new Scanner(System.in);
-       addNumber = (int)nmbr;
-      for(int i=nmbr;;)
-      {
-          
-      }
+       
+       int num = 42, reversed = 0;
+
+        while(num != 0) {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num /= 10;        
+        }
+         System.out.println("Reversed Number: " + reversed);
        
        
         
