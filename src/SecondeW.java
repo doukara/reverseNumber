@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 
-public class SecondeW extends ReverseNumber{
+ class SecondW extends ReverseNumber{
     int reversed = 0 ;
     
     @Override

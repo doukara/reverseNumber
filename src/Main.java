@@ -7,7 +7,7 @@ public class Main {
     public static void main(String [] args){
         
          FirstW objfirstW  = new FirstW();
-         SecondeW objSecondeW = new SecondeW(); 
+         SecondW objSecondeW = new SecondeW(); 
          ThirdW objThirdW = new ThirdW();
          
          //objfirstW.revNumber();
