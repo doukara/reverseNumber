@@ -8,8 +8,12 @@ public class Main {
         
          FirstW objfirstW  = new FirstW();
          SecondeW objSecondeW = new SecondeW(); 
+         ThirdW objThirdW = new ThirdW();
+         
          //objfirstW.revNumber();
-         objSecondeW.revNumber();
+         //objSecondeW.revNumber();
+         objThirdW.revNumber();
+          
     }
     
 }
