@@ -1,3 +1,5 @@
+package ReverseNumber;
+
 
 import java.util.Scanner;
 
@@ -10,9 +12,9 @@ public class Main {
          SecondW objSecondeW = new SecondW(); 
          ThirdW objThirdW = new ThirdW();
          
-         //objfirstW.revNumber();
+         objfirstW.revNumber();
          //objSecondeW.revNumber();
-         objThirdW.revNumber();
+         //objThirdW.revNumber();
           
     }
     
